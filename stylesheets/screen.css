@@ -13,6 +13,7 @@ body {
 	background: #dedede url(/images/structure/bg-body.png);
 	color: #000;
 	font: 14px/20px Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 h1,
 h2,
@@ -252,6 +253,9 @@ abbr {
 	-moz-transform: rotate(2deg);
 	-webkit-transform: rotate(2deg);
 	transform: rotate(2deg);
+}
+.speakers .figure img {
+	-webkit-transform: translateZ(0);
 }
 .speakers h4 {
 	font-size: 14px;
